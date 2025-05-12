@@ -45,3 +45,14 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* ------ */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gift-box {
+  height: 400px;
+}
