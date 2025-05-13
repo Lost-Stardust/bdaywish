@@ -56,3 +56,11 @@ body {
 .gift-box {
   height: 400px;
 }
+.heart {
+  height: 80px;
+  position: absolute;
+  top: 25%;
+}
+body {
+  cursor: url("./images/pinkcursor.png"), auto;
+}
