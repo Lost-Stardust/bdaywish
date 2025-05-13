@@ -7,3 +7,14 @@ const heart = document.querySelector(".heart");
 heart.src = ann;
 const gift = document.querySelector(".gift-box");
 gift.src = giftBox;
+
+function resetHeart() {
+  heart.classList.remove("active");
+}
+
+gift.addEventListener("click", () => {
+  heart.classList.add("active");
+  setTimeout(() => {
+    resetHeart();
+  }, 1600);
+});
