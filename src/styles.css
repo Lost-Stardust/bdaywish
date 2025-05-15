@@ -60,16 +60,9 @@ body {
   height: 80px;
   position: absolute;
   top: 25%;
+  visibility: hidden;
 }
 body {
   cursor: url("./images/pinkcursor.png"), auto;
-}
-.heart.inactive.active {
-  transition: 2s;
-  visibility: visible;
-  transform: translateY(-400px);
-}
-.heart.inactive {
-  visibility: hidden;
-  transform: translateY(0px);
+  background-color: #c4c7ff;
 }
