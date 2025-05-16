@@ -66,3 +66,13 @@ body {
   cursor: url("./images/pinkcursor.png"), auto;
   background-color: #c4c7ff;
 }
+.page {
+  position: absolute;
+  background-color: #ff7dcb;
+  width: 0;
+  transition: ease 3s;
+}
+.page.active {
+  height: 100%;
+  width: 100%;
+}
