@@ -25,3 +25,17 @@ gift.addEventListener("click", () => {
     heart.style.transition = "2s ease-in";
   }, 100);
 });
+
+// open gift box
+function open() {
+  const page = document.querySelector(".page");
+  let count = 0;
+
+  gift.addEventListener("click", () => {
+    count++;
+    if (count == 3) {
+      page.classList.add("active");
+    }
+  });
+}
+open();
