@@ -71,8 +71,18 @@ body {
   background-color: #ff7dcb;
   width: 0;
   transition: ease 3s;
+
+  display: flex;
+  flex-direction: column;
 }
 .page.active {
   height: 100%;
   width: 100%;
+}
+.page > div {
+  display: flex;
+  height: 100%;
+}
+.row2 {
+  flex: 150%;
 }
