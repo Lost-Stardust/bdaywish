@@ -2,6 +2,12 @@ import "./styles.css";
 import ann from "./images/ann.png";
 import giftBox from "./images/gift-box.png";
 import pop from "./images/pop.mp3";
+import darkHeart from "./images/darkheart.png";
+import lightHeart from "./images/lightheart.png";
+import openGiftBox from "./images/open-gift-box.png";
+import flower from "./images/flower.png";
+import cat from "./images/cat.png";
+import bow from "./images/bow.png";
 
 // Set src of img tags
 const heart = document.querySelector(".heart");
@@ -9,6 +15,7 @@ heart.src = ann;
 const gift = document.querySelector(".gift-box");
 gift.src = giftBox;
 
+// Play sound and show heart on click
 gift.addEventListener("click", () => {
   const popSound = new Audio(pop);
   popSound.volume = 0.3;
