@@ -14,6 +14,12 @@ const heart = document.querySelector(".heart");
 heart.src = ann;
 const gift = document.querySelector(".gift-box");
 gift.src = giftBox;
+const img1 = document.querySelector(".img1");
+img1.src = darkHeart;
+const img2 = document.querySelector(".img2");
+img2.src = flower;
+const img3 = document.querySelector(".img3");
+img3.src = lightHeart;
 
 // Play sound and show heart on click
 gift.addEventListener("click", () => {
