@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -78,10 +79,29 @@ body {
 .page.active {
   height: 100%;
   width: 100%;
+  opacity: 100;
 }
 .page > div {
   display: flex;
   height: 100%;
+}
+.page * {
+  opacity: 0;
+  transition: ease-in 5s opacity;
+}
+.page.active * {
+  opacity: 100;
+}
+.page h1 {
+  transition: none;
+  visibility: hidden;
+  font-size: 70px;
+  font-family: "Cherry Bomb One", system-ui;
+  color: white;
+  transition: visibility ease-in 3s;
+}
+h1.active {
+  visibility: visible;
 }
 .row2 {
   flex: 150%;
@@ -91,6 +111,31 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .row1 > img {
   height: 170px;
+}
+.gift-box2 {
+  height: 550px;
+  /* opacity: 0; */
+}
+.img3,
+.img4 {
+  height: 200px;
+}
+.row3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.row3 > img {
+  height: 200px;
+}
+.img4,
+.img5 {
+  transform: scaleX(-1);
 }
