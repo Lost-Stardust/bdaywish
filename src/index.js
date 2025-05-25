@@ -60,7 +60,7 @@ function open() {
 
   gift.addEventListener("click", () => {
     count++;
-    if (count == 3) {
+    if (count == 10) {
       page.classList.add("active");
       h1.classList.add("active");
       confetti();
