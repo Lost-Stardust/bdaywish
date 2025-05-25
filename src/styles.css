@@ -139,3 +139,52 @@ h1.active {
 .img5 {
   transform: scaleX(-1);
 }
+@keyframes float {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes float2 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes float3 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.img1,
+.img2 {
+  animation: float 6s ease-in-out infinite;
+}
+
+.img3,
+.img4 {
+  animation: float2 6s ease-in-out infinite;
+}
+
+.img5,
+.img6,
+.img7 {
+  animation: float3 6s ease-in-out infinite;
+}
