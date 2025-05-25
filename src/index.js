@@ -8,6 +8,9 @@ import openGiftBox from "./images/open-gift-box.png";
 import flower from "./images/flower.png";
 import cat from "./images/cat.png";
 import bow from "./images/bow.png";
+import whisker from "./images/carelesswhisker.mp3";
+
+const carelessWhisker = new Audio(whisker);
 
 // Set src of img tags
 const heart = document.querySelector(".heart");
@@ -61,6 +64,8 @@ function open() {
       page.classList.add("active");
       h1.classList.add("active");
       confetti();
+      carelessWhisker.volume = 1;
+      carelessWhisker.play();
     }
   });
 }
