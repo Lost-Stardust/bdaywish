@@ -9,6 +9,8 @@ import flower from "./images/flower.png";
 import cat from "./images/cat.png";
 import bow from "./images/bow.png";
 import whisker from "./images/carelesswhisker.mp3";
+import bear from "./images/bear.png";
+import butt from "./images/butt.png";
 
 const carelessWhisker = new Audio(whisker);
 
@@ -24,7 +26,7 @@ img2.src = lightHeart;
 const gift2 = document.querySelector(".gift-box2");
 gift2.src = openGiftBox;
 const img3 = document.querySelector(".img3");
-img3.src = bow;
+img3.src = bear;
 const img4 = document.querySelector(".img4");
 img4.src = bow;
 const img5 = document.querySelector(".img5");
@@ -32,7 +34,7 @@ img5.src = cat;
 const img6 = document.querySelector(".img6");
 img6.src = flower;
 const img7 = document.querySelector(".img7");
-img7.src = cat;
+img7.src = butt;
 
 // Play sound and show heart on click
 gift.addEventListener("click", () => {
