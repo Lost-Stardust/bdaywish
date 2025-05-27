@@ -654,6 +654,16 @@ module.exports = __webpack_require__.p + "3a9f53603d224308a74c.png";
 
 /***/ }),
 
+/***/ "./src/images/bear.png":
+/*!*****************************!*\
+  !*** ./src/images/bear.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "467b3d07f7e3c6f26f8a.png";
+
+/***/ }),
+
 /***/ "./src/images/bow.png":
 /*!****************************!*\
   !*** ./src/images/bow.png ***!
@@ -661,6 +671,16 @@ module.exports = __webpack_require__.p + "3a9f53603d224308a74c.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "ad577b4ad20b735394a0.png";
+
+/***/ }),
+
+/***/ "./src/images/butt.png":
+/*!*****************************!*\
+  !*** ./src/images/butt.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "1d492fe085370307fdc7.png";
 
 /***/ }),
 
@@ -961,6 +981,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_cat_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/cat.png */ "./src/images/cat.png");
 /* harmony import */ var _images_bow_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./images/bow.png */ "./src/images/bow.png");
 /* harmony import */ var _images_carelesswhisker_mp3__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./images/carelesswhisker.mp3 */ "./src/images/carelesswhisker.mp3");
+/* harmony import */ var _images_bear_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./images/bear.png */ "./src/images/bear.png");
+/* harmony import */ var _images_butt_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./images/butt.png */ "./src/images/butt.png");
+
+
 
 
 
@@ -987,7 +1011,7 @@ img2.src = _images_lightheart_png__WEBPACK_IMPORTED_MODULE_5__;
 const gift2 = document.querySelector(".gift-box2");
 gift2.src = _images_open_gift_box_png__WEBPACK_IMPORTED_MODULE_6__;
 const img3 = document.querySelector(".img3");
-img3.src = _images_bow_png__WEBPACK_IMPORTED_MODULE_9__;
+img3.src = _images_bear_png__WEBPACK_IMPORTED_MODULE_11__;
 const img4 = document.querySelector(".img4");
 img4.src = _images_bow_png__WEBPACK_IMPORTED_MODULE_9__;
 const img5 = document.querySelector(".img5");
@@ -995,7 +1019,7 @@ img5.src = _images_cat_png__WEBPACK_IMPORTED_MODULE_8__;
 const img6 = document.querySelector(".img6");
 img6.src = _images_flower_png__WEBPACK_IMPORTED_MODULE_7__;
 const img7 = document.querySelector(".img7");
-img7.src = _images_cat_png__WEBPACK_IMPORTED_MODULE_8__;
+img7.src = _images_butt_png__WEBPACK_IMPORTED_MODULE_12__;
 
 // Play sound and show heart on click
 gift.addEventListener("click", () => {
